@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invito 18° Compleanno di Giada</title>
+    <style>
+        @font-face {
+            font-family: Girler;
+            src: url(Elegant\ DEMO.ttf);
+        }
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Girler, sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+            text-align: center;
+            background-image: url('Sfondo.png');
+            background-size: cover;
+            background-position: center;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100%;
+            padding: 2rem;
+            max-width: 80%;
+        }
+        .title-image {
+            max-width: 80%;
+            height: auto;
+            margin-top: 1rem;
+        }
+        .main {
+            margin-bottom: 15rem;
+        }
+        p {
+            font-size: 4rem;
+            color: #5a3921;
+            margin: 0.5rem 0;
+        }
+        .details {
+            font-style: italic;
+            margin-top: 1rem;
+        }
+        .ier {
+            width: 6vh;
+        }
+        .location-link {
+            color: #5a3921;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <img src="Giada.png" alt="Giada" class="title-image">
+            <div class="main">
+                <p>Ci sarai?</p>
+                <p>Fatemi sapere qui:</p>
+                <a href="http://wa.me/+393894960510" class="whatsapp-btn"><img src="whatsapp.png" class="ier"></a>
+                <div class="details">
+                    <p><a href="https://maps.app.goo.gl/baLCAncXZ5c91ALJ8" class="location-link">La Lanterna</a></p>
+                    <p>14.12.2024</p>
+                    <p>ore 7:30</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
